@@ -19,7 +19,7 @@ function App() {
     <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
     <Row title="Romantic Movies" fetchUrl={requests.fetchRomanceMovies} />
     <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
-    <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+    {/*<Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />*/}
     </div>
   );
 }
