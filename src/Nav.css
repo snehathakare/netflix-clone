@@ -5,9 +5,11 @@
   justify-content: space-between;
   width: 100%;
   padding: 20px;
-  background-color: #111;
   height: 30px;
   z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
 }
 
 .nav__logo {
@@ -24,4 +26,8 @@
   object-fit: contain;
   width: 30px;
   right: 20px;
+}
+
+.nav__black {
+  background-color: #111;
 }
